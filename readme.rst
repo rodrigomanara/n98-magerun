@@ -180,11 +180,11 @@ On my Ubuntu system this can be done with the following command:
 
    # cp res/autocompletion/bash/n98-magerun.phar.bash /etc/bash_completion.d
 
-The concrete folder can be obtained via pkg-config::
+The concrete folder can be obtained via pkg-config:
 
 .. code-block:: sh
 
-# pkg-config --variable=compatdir bash-completion
+    # pkg-config --variable=compatdir bash-completion
 
 Detailed information is available in the bash-completions FAQ: https://github.com/scop/bash-completion#faq
 
@@ -418,6 +418,7 @@ Example: "dataflow_batch_export unimportant_module_* @log
 
 Available Table Groups:
 
+* @admin Admin tables
 * @log Log tables
 * @dataflowtemp Temporary tables of the dataflow import/export tool
 * @importexporttemp Temporary tables of the Import/Export module
